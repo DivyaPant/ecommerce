@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #ff3f6c; /* dark pink */
+  --color-brand-light: #ff6689; /* light pink */
+  --color-primary-text: #424553; /* dark gray */
+  --color-secondary-text: #696b79; /* gray */
+  --background-image-brand-background: linear-gradient(to bottom right, #feedf6, #fcf0e2);
+}
