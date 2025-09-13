@@ -37,7 +37,6 @@ const SignUp = () => {
   const profileUpdate = () => {
   handleProfileUpdate(inputVal.displayName).then((resp)=> {
      navigate("/");
-    console.log("Profile updated successfully:", resp);
   }).catch((err)=> {
     console.error("Error updating profile:", err);
   })
